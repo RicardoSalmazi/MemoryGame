@@ -1,0 +1,41 @@
+<!-- ctrl + shift + i abre o inspetor da página html oi
+ clicar com botão direito do mouse na página e selecionar
+ "inspecior" -->
+<!-- alt + shift + pra baixo duplica a linha acima (copy and past) -->
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <!-- Se segurar o ctrl + clique em cada link acima os arquivos
+     mencionados são criados -->
+ </head>
+ <body>
+<!-- Aqui eu crio um container contendo uma div (sessão), um cabeçalho h2,
+e um botão. Para isso eu escrevo pouco! basta digitar:
+
+div.container>(h2 + div + button) e "enter". Isso cria a estrutura já
+identada abaixo. No h2 coloco um título, no div coloco uma class="game"
+e no button coloco "REST GAME com classe "reset". Só que no botão, junto
+com a class "reset". A única inclusão necessária será, dentro do
+button e logo após a class, do comando onclick="window.location.
+reload()" -->
+    <div class="container">
+        <h2>JOGO DA MEMÓRIA</h2>
+        <div class="game"></div>
+        <button class="reset" onclick="window.location.reload()">RESET GAME</button>
+    </div>
+<!-- Aqui já dá pra visualizar a tela com esse botão fazendo o reset.
+ Basta abrir a página local (botão direito no arquivo html)
+ Funcionou!-->
+
+<!-- Coisas importantes aqui: para criar o link do javascript, tem que ser 
+ aqui, como última linha do "body". Digita "script: + tab" e elecria a
+ estrutura. E também gero o arquivo engine por aqui no script, através do
+ "ctrl+click" -->
+   <script src="./src/scripts/engine.js" defer></script> 
+ </body>
+ </html>
