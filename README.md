@@ -1,0 +1,1 @@
+Exercício bastante rico em todos os sentidos. Bom para o desenvolvedor treinar a lógica e versatilidade da associação HTML + JavaScript + CSS, e muito bom como exercício de memorização para o usuário.
